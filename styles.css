@@ -1,0 +1,215 @@
+body {
+    background-color: #f4e9cd;
+}
+@font-face {
+    font-family: Spartan ;
+    src: url(fonts/LeagueSpartan-Regular.ttf);
+}
+
+@font-face {
+    font-family: Matao;
+    src: url(fonts/MATAO\ Free\ Demo\ .otf);
+}
+
+article {
+    background-color: #77aca2;
+    border-radius: 1.5em;
+    padding: 1em;
+    padding-bottom: 2em;
+    margin: 1em;
+    margin-bottom: 2em;
+}
+
+img {
+    margin: auto;
+    margin-right: 1em;
+    width: 10em;
+    height: 8em;
+    object-fit: cover;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+.logo {
+    width: 10em;
+    height: auto;
+    margin: auto;
+    padding: 0.5em;
+}
+
+header {
+    background-color: #9dbebb;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+}
+
+main {
+    margin-top: 7em;
+    margin-bottom: 7em;
+}
+
+h1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: white;
+    padding: 0.75em;
+    background-color: #468189;
+    border-radius: 1.5em;
+    text-decoration: none;
+    margin: 2em;
+    box-shadow: 4px 4px #315a60;
+}
+
+div {
+    background-color: #77aca2;
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 3em;
+}
+
+.bloemkool {
+    margin: 0.5em;
+    width: 18em;
+    height: 15em;
+    object-fit: cover;
+}
+
+.productomschrijving {
+    width: 90vw;
+    margin: 2em auto;
+    text-align: center; 
+}
+
+footer {
+    background-color: #9dbebb;
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+nav {
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+nav a{
+background-color: #9dbebb;
+box-shadow: none;
+margin: 0;
+}
+
+nav img {
+    margin: auto;
+    margin-right: 1em;
+    height: 2em;
+    width: auto;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: matao;
+}
+
+.home img {
+    width: 2em;
+    height: auto;
+
+}
+
+.home  {
+    padding: 1em 6em;
+    display: flex;
+    margin: 1.5em;
+    
+}
+
+p {
+    font-family: spartan ;
+    line-height: 1em;
+    font-size: larger;
+}
+
+.homepagina {
+padding: 1em;
+}
+
+.recepten {
+    display: flex;
+}
+
+.recepten section {
+    display: flex;
+    flex-direction: column;
+}
+
+.recepten img {
+    width: 8em;
+    height: auto;
+}
+
+.recepten img:nth-child(2) {
+    position: absolute;
+    right: 11em;
+    top: 17em;
+}
+
+.gekleurd {
+    position: relative;
+    right: 7em;
+    width: 20em;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+.specificaties {
+   height: 3em;
+   width: auto;
+}
+
+.terug {
+    background-color: #9dbebb;
+    box-shadow: 0 0 #f4e9cd;
+    color: black;
+}
+
+#jaargetijden {
+    width: 20em;
+    height: auto;
+}
