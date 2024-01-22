@@ -1,8 +1,9 @@
 body {
     background-color: #f4e9cd;
 }
+
 @font-face {
-    font-family: Spartan ;
+    font-family: Spartan;
     src: url(fonts/LeagueSpartan-Regular.ttf);
 }
 
@@ -22,13 +23,13 @@ article {
 
 img {
     margin: auto;
-    margin-right: 1em;
+    margin-right: 0.5em;
     width: 10em;
     height: 8em;
     object-fit: cover;
 }
 
-section {
+.zadendiv {
     display: flex;
     flex-direction: row;
     margin-bottom: 1em;
@@ -62,7 +63,7 @@ h1 {
     justify-content: center;
 }
 
-a{
+a {
     color: white;
     padding: 0.75em;
     background-color: #468189;
@@ -70,9 +71,32 @@ a{
     text-decoration: none;
     margin: 2em;
     box-shadow: 4px 4px #315a60;
+    cursor: pointer;
 }
 
-div {
+a:active,
+a:hover {
+    background-color: #315a60;
+    box-shadow: #16282b;
+    color: white;
+}
+
+
+.knoprecept {
+    color: white;
+    padding: 0.75em 1em;
+    background-color: #468189;
+    border-radius: 1.5em;
+    text-decoration: none;
+    margin: 1em;
+    box-shadow: 4px 4px #315a60;
+}
+.knoprecept:hover {
+    background-color: #9dbebb;
+    box-shadow: #667c7b; 
+}
+
+.bloemkooldiv {
     background-color: #77aca2;
     border-radius: 50%;
     width: 15em;
@@ -95,7 +119,7 @@ div {
 .productomschrijving {
     width: 90vw;
     margin: 2em auto;
-    text-align: center; 
+    text-align: center;
 }
 
 footer {
@@ -115,10 +139,10 @@ nav {
     right: 0;
 }
 
-nav a{
-background-color: #9dbebb;
-box-shadow: none;
-margin: 0;
+nav a {
+    background-color: #9dbebb;
+    box-shadow: none;
+    margin: 0;
 }
 
 nav img {
@@ -139,7 +163,9 @@ nav ul {
 }
 
 li {
-    padding: 0;
+    font-family: spartan;
+    line-height: 1em;
+    font-size: larger;
 }
 
 h2 {
@@ -150,44 +176,54 @@ h2 {
 .home img {
     width: 2em;
     height: auto;
-
+    margin: 0;
 }
 
-.home  {
-    padding: 1em 6em;
+.home {
+    padding: 1em 3em;
     display: flex;
     margin: 1.5em;
-    
+    align-items: center;
+    justify-content: space-around;
 }
 
 p {
-    font-family: spartan ;
+    font-family: spartan;
     line-height: 1em;
     font-size: larger;
 }
 
 .homepagina {
-padding: 1em;
+    padding: 1em;
 }
 
 .recepten {
     display: flex;
 }
 
-.recepten section {
-    display: flex;
-    flex-direction: column;
-}
-
 .recepten img {
     width: 8em;
     height: auto;
+    margin-right: 1em;
 }
 
 .recepten img:nth-child(2) {
     position: absolute;
     right: 11em;
     top: 17em;
+}
+
+#aubergine1 {
+    position: absolute;
+    right: 11em;
+    top: 36em;
+}
+
+#aubergine2 {
+    position: absolute;
+    right: 11em;
+    top: 53em;
+
 }
 
 .gekleurd {
@@ -199,8 +235,8 @@ padding: 1em;
 }
 
 .specificaties {
-   height: 3em;
-   width: auto;
+    height: 3em;
+    width: auto;
 }
 
 .terug {
@@ -210,6 +246,96 @@ padding: 1em;
 }
 
 #jaargetijden {
-    width: 20em;
+    width: 22em;
     height: auto;
+    margin: 1em 0em 2em;
+}
+
+.recepten p {
+    padding-left: 0.5em;
+    margin-bottom: 1.3em;
+}
+
+.zadenknop {
+    margin: 5em;
+}
+
+.receptendiv h2 {
+    text-align: left;
+}
+
+.specificatiesrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.specificatiesdiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 12em;
+    align-items: flex-start;
+    align-content: space-around;
+    margin-bottom: 3em;
+}
+
+.legenda img {
+width: 2em;
+height: auto;
+margin-right: 2em;
+}
+
+.legendarow {
+    display: flex;
+flex-direction: row;
+}
+
+.legenda {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bbdiv {
+    background-color: #77aca2;
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: flex-end;
+    padding: 3em;
+}
+
+.bbdiv img {
+    width: 10em;
+    height: auto;
+    margin:0;
+}
+
+.bbdiv h1 {
+text-align: center;
+margin-top: 1em;
+}
+
+.bbdiv img:nth-child(1) {
+    position: absolute;
+    top: 10em;
+    right: 9em;
+}
+
+.bbdiv img:nth-child(2) {
+    position: absolute;
+    top: 12em;
+    right: 4em;
+}
+
+.receptinformatie {
+    list-style: none;
+}
+
+.ruimte {
+    margin-top: 2em;
 }
