@@ -12,6 +12,7 @@ body {
     src: url(fonts/MATAO\ Free\ Demo\ .otf);
 }
 
+
 article {
     background-color: #77aca2;
     border-radius: 1.5em;
@@ -42,6 +43,7 @@ img {
     padding: 0.5em;
 }
 
+
 header {
     background-color: #9dbebb;
     width: 100vw;
@@ -50,6 +52,7 @@ header {
     right: 0;
     top: 0;
     display: flex;
+    justify-content: space-around;
 }
 
 main {
@@ -69,18 +72,10 @@ a {
     background-color: #468189;
     border-radius: 1.5em;
     text-decoration: none;
-    margin: 2em;
+    margin: 1em;
     box-shadow: 4px 4px #315a60;
     cursor: pointer;
 }
-
-a:active,
-a:hover {
-    background-color: #315a60;
-    box-shadow: #16282b;
-    color: white;
-}
-
 
 .knoprecept {
     color: white;
@@ -91,9 +86,10 @@ a:hover {
     margin: 1em;
     box-shadow: 4px 4px #315a60;
 }
+
 .knoprecept:hover {
     background-color: #9dbebb;
-    box-shadow: #667c7b; 
+    box-shadow: #667c7b;
 }
 
 .bloemkooldiv {
@@ -280,14 +276,14 @@ p {
 }
 
 .legenda img {
-width: 2em;
-height: auto;
-margin-right: 2em;
+    width: 2em;
+    height: auto;
+    margin-right: 2em;
 }
 
 .legendarow {
     display: flex;
-flex-direction: row;
+    flex-direction: row;
 }
 
 .legenda {
@@ -312,12 +308,12 @@ flex-direction: row;
 .bbdiv img {
     width: 10em;
     height: auto;
-    margin:0;
+    margin: 0;
 }
 
 .bbdiv h1 {
-text-align: center;
-margin-top: 1em;
+    text-align: center;
+    margin-top: 1em;
 }
 
 .bbdiv img:nth-child(1) {
@@ -338,4 +334,11 @@ margin-top: 1em;
 
 .ruimte {
     margin-top: 2em;
+}
+
+.logoknop {
+    background: none;
+    box-shadow: none;
+    margin: 0em;
+    padding: 0em;
 }
