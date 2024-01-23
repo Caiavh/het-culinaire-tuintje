@@ -25,9 +25,10 @@ article {
 img {
     margin: auto;
     margin-right: 0.5em;
-    width: 10em;
     height: 8em;
-    object-fit: cover;
+    object-fit: contain;
+    display: block;
+    width: 41%;
 }
 
 .zadendiv {
@@ -144,7 +145,7 @@ nav a {
 nav img {
     margin: auto;
     margin-right: 1em;
-    height: 2em;
+    height: 1.5em;
     width: auto;
     object-fit: cover;
 }
@@ -187,6 +188,7 @@ p {
     font-family: spartan;
     line-height: 1em;
     font-size: larger;
+    width: 60%;
 }
 
 .homepagina {
@@ -212,7 +214,7 @@ p {
 #aubergine1 {
     position: absolute;
     right: 11em;
-    top: 36em;
+    top: 35em;
 }
 
 #aubergine2 {
@@ -250,6 +252,7 @@ p {
 .recepten p {
     padding-left: 0.5em;
     margin-bottom: 1.3em;
+    width: 100%;
 }
 
 .zadenknop {
