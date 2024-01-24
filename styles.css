@@ -36,6 +36,9 @@ img {
     flex-direction: row;
     margin-bottom: 1em;
 }
+.zadendiv p {
+    width: 100%;
+}
 
 .logo {
     width: 10em;
@@ -162,9 +165,9 @@ nav ul {
 
 li {
     font-family: spartan;
-    line-height: 1em;
+    line-height: 1.25em;
     font-size: larger;
-    max-width: 300px;
+    max-width: 18.75em;
 }
 
 h2 {
@@ -346,4 +349,8 @@ p {
     box-shadow: none;
     margin: 0em;
     padding: 0em;
+}
+
+.homepagina p {
+    width: 100%;
 }
