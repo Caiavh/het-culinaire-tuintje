@@ -28,13 +28,14 @@ img {
     height: 8em;
     object-fit: contain;
     display: block;
-    width: 41%;
+    width: 8em;
 }
 
 .zadendiv {
     display: flex;
     flex-direction: row;
     margin-bottom: 1em;
+    align-items: center;
 }
 .zadendiv p {
     width: 100%;
@@ -89,11 +90,6 @@ a {
     text-decoration: none;
     margin: 1em;
     box-shadow: 4px 4px #315a60;
-}
-
-.knoprecept:hover {
-    background-color: #9dbebb;
-    box-shadow: #667c7b;
 }
 
 .bloemkooldiv {
@@ -239,7 +235,7 @@ p {
 
 .specificaties {
     height: 3em;
-    width: auto;
+    width: 3em;
 }
 
 .terug {
@@ -297,7 +293,8 @@ p {
 .legenda {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+    margin-top: 2em;
 }
 
 .bbdiv {
@@ -353,4 +350,10 @@ p {
 
 .homepagina p {
     width: 100%;
+}
+
+.zadenimg {
+    width: 8em;
+    height: 8em;
+    margin-right: 1em;
 }
