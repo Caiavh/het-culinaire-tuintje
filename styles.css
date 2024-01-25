@@ -357,3 +357,7 @@ p {
     margin-left: auto;
     width: 3em;
 }
+
+ol li {
+    margin-bottom: 2em;
+}
